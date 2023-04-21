@@ -1,9 +1,7 @@
 ### iRingo 使用教程；shadowrocket 小火箭
-机型：14Pro
-IOS：16.4.1
+机型：14Pro       IOS：16.4.1
 
-机型：iPad Pro 2020
-iPad OS：忘记了（使用的当前最新系统，今天是2023-04-21）
+机型：iPad Pro 2020      iPad OS：忘记了（使用的当前最新系统，今天是2023-04-21）
 #### 1. 在 [iRingo](https://github.com/VirgilClyne/iRingo) 项目主页找到 [🧰BoxJs](https://github.com/VirgilClyne/iRingo/wiki/%F0%9F%A7%B0-BoxJs) 点击蓝色字体进入介绍
 ![boxjs](images/boxjs.png)
 #### 2. 点击 使用说明中 [BoxJs官方说明文档](https://docs.boxjs.app/) 进入 boxjs 官网说明文档页面
