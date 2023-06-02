@@ -1,7 +1,33 @@
-### iRingo 使用教程；shadowrocket 小火箭
+### iRingo 使用教程；shadowrocket 小火箭、Quantumult X
 机型：14Pro       IOS：16.4.1
 
 机型：iPad Pro 2020      iPad OS：忘记了（使用的当前最新系统，今天是2023-04-21）
+
+#### 更新 关于Quantumult X（2023-06-02)
+第一次用了 QuanX，觉得QuanX会比小飞机好用一些。
+
+因为QuanX中带有复写功能 (这个功能我在小飞机中没有看到，不知道我是不是不会用哈)
+个人猜测：小飞机中使用boxjs的原因是因为它没有复写功能，使用boxjs来代替。
+
+#### 在QuanX的使用iRingo模块
+QuanX的使用步骤很特别简单
+只需要在对应的模块简介中 点击QuanX的一键订阅。即可
+
+![1](./images/IMG_1831.PNG)
+在QuanX中打开
+![2](./images/IMG_1830.PNG)
+等待QuanX导入成功之后重新开启一次代理即可使用。
+![3](./images/IMG_1832.PNG)
+
+有几个需要注意的地方
+1. 如果设备中有 SIM 卡：定位&地图 模块首次加载需要 开飞行模式 或者拔卡。然后正常刷新 左下角高德地图的步骤操作。
+2. 天气模块如果没有配置三方地图的 key，则无法加载天气数据。
+3. 如果设备中有 SIM 卡：News 会被检测，需要在没有SIM卡 或者 飞行模式下使用（如果有WiFi可   即用即开，使用的时候打开飞行模式即可）
+
+除以上几个问题之外，其他功能均正常使用。
+
+-----------------------------------------
+
 #### 1. 在 [iRingo](https://github.com/VirgilClyne/iRingo) 项目主页找到 [🧰BoxJs](https://github.com/VirgilClyne/iRingo/wiki/%F0%9F%A7%B0-BoxJs) 点击蓝色字体进入介绍
 ![boxjs](images/boxjs.png)
 #### 2. 点击 使用说明中 [BoxJs官方说明文档](https://docs.boxjs.app/) 进入 boxjs 官网说明文档页面
@@ -33,7 +59,7 @@
 
 #### 8. 模块默认是启用的，在应用配置中 
   1. 点击右下角 `保存` 按钮（如需要关闭部分模块，取消勾选上方选项后点击保存）
-  ![boxjsinfo](images/IMG_0486.PNG)
+  ![boxjsinfo](images/IMG_0486.PNG#pic_center#600px)
   2. 保存后会更新 `当前会话` 中的 `@iRingo.xx.Settings`, 在`当前会话` 框中点击右下角的 `克隆` 按钮。
   ![boxjsinfo](images/IMG_0487.PNG)
   3. 克隆 `当前会话` 后，会在 `当前会话` 下面创建一个 子会话，在子会话中点击 `应用` 按钮保存当前模块设置
